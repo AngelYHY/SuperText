@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="16dp"
+    tools:context=".MainActivity">
+
+    <vip.freestar.freelibrary.SuperTextView
+        android:text="Super"
+        android:onClick="click_view"
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:background_color_normal="#FF279B5E"
+        app:background_color_selected="#FFF2AF3A"
+        app:border_color_normal="@color/colorPrimary"
+        app:border_color_selected="@color/colorAccent"
+        app:border_width_normal="1dp"
+        app:corner_radius="4dp"
+        app:icon_direction="left"
+        app:icon_height="20dp"
+        app:icon_src_normal="@drawable/star_yellow"
+        app:icon_src_selected="@drawable/star_gray"
+        app:icon_width="20dp"
+        app:text_color_normal="@android:color/white"
+        app:text_color_selected="#3303A9F4"
+        app:text_normal="hello"
+        app:text_selected="world"/>
+
+</LinearLayout>
