@@ -8,11 +8,11 @@
     tools:context=".MainActivity">
 
     <vip.freestar.freelibrary.SuperTextView
-        android:text="Super"
-        android:onClick="click_view"
         android:id="@+id/text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:onClick="click_view"
+        android:text="Super"
         app:background_color_normal="#FF279B5E"
         app:background_color_selected="#FFF2AF3A"
         app:border_color_normal="@color/colorPrimary"
@@ -27,6 +27,6 @@
         app:text_color_normal="@android:color/white"
         app:text_color_selected="#3303A9F4"
         app:text_normal="hello"
-        app:text_selected="world"/>
+        app:text_selected="world" />
 
 </LinearLayout>

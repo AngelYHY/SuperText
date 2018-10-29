@@ -259,6 +259,13 @@ public class SuperTextView extends AppCompatTextView {
         setIcon(mIcon, mIconWidth, mIconHeight, mIconDirection);
     }
 
+    public SuperTextView setIconNormal(Drawable icon) {
+        this.mIconNormal = icon;
+        this.mIcon = icon;
+        setIcon();
+        return this;
+    }
+
     private void setIcon(Drawable drawable, int width, int height, int direction) {
         if (drawable != null) {
             if (width != 0 && height != 0) {
